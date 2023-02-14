@@ -1,0 +1,45 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.top-section {
+  display: flex;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.hr-line {
+  border-width: 1px;
+  margin-top: 5px;
+}
+
+.appointment-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.comment-starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
